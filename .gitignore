@@ -1,0 +1,138 @@
+# =======================================
+# 🧠 BACKEND (Java / Spring Boot / Maven)
+# =======================================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# Spring Boot specific
+*.pid
+*.env
+*.env.*
+application-*.yml
+application-*.properties
+
+# IntelliJ IDEA / Eclipse / STS
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+bin/
+out/
+
+# VS Code
+.vscode/
+
+# =======================================
+# 💻 FRONTEND (React / Angular / Vue)
+# =======================================
+
+# dependencies
+node_modules/
+bower_components/
+
+# build output
+dist/
+build/
+.tmp/
+coverage/
+.cache/
+.next/
+out/
+
+# dotenv environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# lock files (optional)
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# =======================================
+# 🐳 DOCKER / CONTAINERS
+# =======================================
+docker-compose.override.yml
+*.pid
+*.seed
+*.bak
+
+# Docker volumes and logs
+docker-data/
+*.db
+*.sqlite
+*.log
+logs/
+
+# =======================================
+# 🧩 TESTING / DOCUMENTATION
+# =======================================
+# JUnit, Swagger, Mockito reports
+test-output/
+reports/
+*.coverage
+*.xml
+*.json
+
+# =======================================
+# 🧰 OS / EDITOR FILES
+# =======================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*.rej
+*~
+
+# =======================================
+# ☁️ OPTIONAL — ignore these if not needed
+# =======================================
+# Kafka or temporary data
+kafka-logs/
+zookeeper-data/
+
+# Uploaded files (if any)
+uploads/
+uploads_temp/
+
+# =======================================
+# ✅ END OF FILE
+# =======================================

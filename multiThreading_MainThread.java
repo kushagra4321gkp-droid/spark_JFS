@@ -12,6 +12,8 @@ public class multiThreading_MainThread {
 
         mythread t = new mythread();
         t.start();
+        //if i don't override run method, and i extend Thread and do t.start(). thread will still be created. 
+        //if instead of t.start() i do t.run(). normal execution will occur. no thread will be created
 
         for(int i = 0; i<5; i++){
             System.out.println("main");

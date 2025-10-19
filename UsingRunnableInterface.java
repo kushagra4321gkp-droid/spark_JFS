@@ -19,8 +19,10 @@ class EvenThread extends Thread{
 }
 
 class OddThread extends Thread{
+    
     @Override
     public void run() {
+        System.out.println(Thread.currentThread().getName());
         for(int i = 1; i<=9; i=i+2){
             System.out.println("Odd : " + i);
         }

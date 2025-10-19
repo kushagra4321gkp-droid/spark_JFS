@@ -34,8 +34,23 @@ class sleepMethod extends Thread{
     }
 }
 
+class joinMethod extends Thread{
+    @Override
+    public void run() {
+        for(int i = 0; i<=5; i++){
+            System.out.println("child Thread");
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
 public class methodsToPreventThreadExecution {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         //System.out.println(Thread.currentThread().getName());
 
         // thread1 t1 = new thread1();
@@ -44,7 +59,18 @@ public class methodsToPreventThreadExecution {
         // t1.start();
         // t2.start();
 
-        sleepMethod sle_ep = new sleepMethod();
-        sle_ep.start();
+        // sleepMethod sle_ep = new sleepMethod();
+        // sle_ep.start();
+
+        //sleep() -> sleep method pause the current thread for specified number of miliseconds
+        //join() -> When one thread calls join() on another - it says: I will wait until you are done!
+
+        joinMethod joi_n = new joinMethod();
+        joi_n.start();
+        joi_n.join(); // main -> jo line execute karega wahi wait karega
+        for(int i = 0; i<5; i++){
+            System.out.println("main Thread");
+
+        }
     }
 }

@@ -1,7 +1,7 @@
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
-public class Throws {
+public class Throws  {
     public static void main(String[] args) {
         //In java will use throws with method signature, when a method is declared with throws keyword, it means that the responsibility of handling exception is passed to the caller method.
         //in simple words, throws means -> Delegating your Responsibility to the caller method!

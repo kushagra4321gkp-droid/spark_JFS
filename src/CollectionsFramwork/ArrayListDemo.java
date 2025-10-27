@@ -1,5 +1,6 @@
 package CollectionsFramwork;
 
+import java.util.Iterator;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -37,5 +38,18 @@ public class ArrayListDemo {
 
         nums.add(0, 50);
         System.out.println(nums);
+
+        Iterator<Integer> it = nums.iterator();
+        while (it.hasNext()){
+            int data = it.next();
+            if(data == 30){
+                System.out.println("removing 30");
+                it.remove();
+            }else{
+                System.out.println(data);
+            }
+
+        }
+
     }
 }

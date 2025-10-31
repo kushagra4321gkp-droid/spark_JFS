@@ -10,8 +10,8 @@ public class JDBCDemo {
     //(4)Execute Query
 
     public static void main(String[] args) {
-        Class.forName("com.mysql.cj.jdbc.Driver"); //load Driver class
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mystd", "root", "root");
+//        Class.forName("com.mysql.cj.jdbc.Driver"); //load Driver class
+//        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mystd", "root", "root");
 
 
     }

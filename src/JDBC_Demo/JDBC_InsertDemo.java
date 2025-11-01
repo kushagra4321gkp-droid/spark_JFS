@@ -16,8 +16,8 @@ public class JDBC_InsertDemo {
             String query = "insert into student (id, stdName, age) values(4, 'savita', 25)";
             //ResultSet rs = statement.executeQuery(query);
             //ResultSet rs = statement.executeUpdate(query); it will throw an error of type conversion
-            int update = statement.executeUpdate(query);
-            System.out.println("inserted " + update + " rows");
+            int insert = statement.executeUpdate(query);
+            System.out.println("inserted " + insert + " rows");
 
 //            System.out.println("--------------------Read Data--------------------");
 //            while(rs.next()){

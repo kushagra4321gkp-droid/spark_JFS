@@ -18,6 +18,7 @@ public class JDBCDemo {
                     "jdbc:mysql://localhost:3306/mystd", "root", "KusHagra4321abcd1234ktkt..");
             Statement statement = con.createStatement();
             String query = "select * from student";
+            //Default of ResultSet, means this rs is TYPE_FORWARD_ONLY, CONCURRENT_READ_ONLY
             ResultSet rs = statement.executeQuery(query);
             System.out.println("--------------------Read Data--------------------");
             while(rs.next()){

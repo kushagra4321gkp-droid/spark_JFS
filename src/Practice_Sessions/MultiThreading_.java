@@ -37,4 +37,3 @@ public class MultiThreading_ {
             }
     }
 }
-//my name is Kushagra

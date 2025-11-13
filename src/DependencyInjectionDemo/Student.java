@@ -1,7 +1,7 @@
 package DependencyInjectionDemo;
 
 public class Student {
-    private Course course;
+    public Course course;
 
     public Student() {
     }

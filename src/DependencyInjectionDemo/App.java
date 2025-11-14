@@ -18,5 +18,6 @@ public class App {
 
         //Note :- In Manual Injection we need to make variable public otherwise it will not be available outside class.
         //But in Spring Core we don't need to make variables public
+
     }
 }

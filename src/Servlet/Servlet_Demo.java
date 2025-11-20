@@ -13,4 +13,6 @@ public class Servlet_Demo {
     //   d.Server read that request and return response
     //5.HTTP response sent via TCP
     //6.TCP close the connection
+
+
 }

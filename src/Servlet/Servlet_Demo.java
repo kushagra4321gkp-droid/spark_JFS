@@ -15,4 +15,5 @@ public class Servlet_Demo {
     //6.TCP close the connection
 
 
+    //port + ip ------> goes to server's Operating system
 }

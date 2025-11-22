@@ -150,5 +150,6 @@ public class Servlet_Demo {
     //🔥 Ultra-Short Answer (the essence)
     //
     //The port is selected by the browser based on the URL or protocol.
-    //TCP never chooses the port; it simply connects to the port that the browser/URL tells it to.
+    //TCP never chooses the port; it simply connects to the port that the browser/URL tells it to.6
+    .
 }
